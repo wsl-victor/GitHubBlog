@@ -35,8 +35,8 @@ canonical: true
 menu:
   home: /
   categories: /categories
-  about: /about
   archives: /archives
+  about: /about
   tags: /tags
   commonweal: /404.html
 
@@ -129,7 +129,7 @@ font:
   #LinkLabel: Link
 
 #友情链接
-links_title: Links
+links_title: 友情链接
 links:
   MacTalk: http://macshuo.com/
 
@@ -139,6 +139,7 @@ social:
   GitHub: https://github.com/wsl-victor/
  # Twitter: https://twitter.com/your-user-name
   微博: http://weibo.com/pearapp
+  CSDN: http://blog.csdn.net/appandroid
  # 豆瓣: http://douban.com/people/your-user-name
   #知乎: http://www.zhihu.com/people/your-user-name
 
@@ -163,12 +164,12 @@ alipay: /uploads/zhifubaopay.jpg
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /uploads/avatar.png
 
 
 # Table Of Contents in the Sidebar
 toc:
-  enable: true
+  enable: false
 
   # Automatically add list number to toc.
   number: true
@@ -233,7 +234,7 @@ scroll_to_more: true
 # Automatically Excerpt. Not recommand.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 
