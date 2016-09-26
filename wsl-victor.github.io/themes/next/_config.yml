@@ -50,8 +50,8 @@ menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
-  about: user
   categories: th
+  about: user
   tags: tags
   archives: archive
   commonweal: heartbeat
@@ -164,7 +164,7 @@ alipay: /uploads/zhifubaopay.jpg
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-avatar: /uploads/avatar.png
+#avatar: /uploads/avatar.png
 
 
 # Table Of Contents in the Sidebar
