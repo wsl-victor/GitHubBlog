@@ -5,11 +5,11 @@
 # Site
 title: victor kun Blog
 subtitle:
-description:
+description: 逆风的方向更适合飞翔，我不怕万人阻挡，只怕自己投降！不管做什么事，我都时刻记住这句话，遇到任何困难，都坚持不放弃！
 author: victor
 language: zh-Hans
 timezone:
-
+avatar: /uploads/avatar.png
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com

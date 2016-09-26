@@ -13,8 +13,13 @@ keywords: "Hexo, NexT"
 # Set rss to specific value if you have burned your feed already.
 rss:
 
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+    hub:
 # Specify the date when the site was setup
-#since: 2015
+    since: 2016
 
 # Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
 # See: https://support.google.com/webmasters/answer/139066
@@ -123,6 +128,19 @@ font:
 #social:
   #LinkLabel: Link
 
+#友情链接
+links_title: Links
+links:
+  MacTalk: http://macshuo.com/
+
+
+
+social:
+  GitHub: https://github.com/wsl-victor/
+ # Twitter: https://twitter.com/your-user-name
+  微博: http://weibo.com/pearapp
+ # 豆瓣: http://douban.com/people/your-user-name
+  #知乎: http://www.zhihu.com/people/your-user-name
 
 # Social Links Icons
 # Icon Mapping:
@@ -136,6 +154,10 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
+
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+wechatpay: /uploads/weixinpay.jpg
+alipay: /uploads/zhifubaopay.jpg
 
 
 # Sidebar Avatar
@@ -201,7 +223,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night blue
 
 
 # Automatically scroll page to section which is under <!-- more --> mark.
@@ -241,7 +263,7 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: wsl-victor
 
 # Disqus
 #disqus_shortname:
@@ -257,7 +279,7 @@ mathjax:
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -303,27 +325,27 @@ facebook_comments_plugin:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: v4nftjucrmaXAwlIFJ85OWfq-gzGzoHsz #<app_id>
+  app_key: Pn9K1mT5Q26u61iXfhmmsKT1#<app_key>
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
-  site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer:
+  site_uv_header: 本站访客数<i class="fa fa-user"></i>
+  site_uv_footer: 人次
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer:
+  site_pv_header: 本站总访问量<i class="fa fa-eye"></i>
+  site_pv_footer: 次
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer:
+  page_pv_header: 本文总阅读量<i class="fa fa-file-o"></i>
+  page_pv_footer: 次
 
 # Tencent analytics ID
 # tencent_analytics:
